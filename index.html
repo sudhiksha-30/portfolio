@@ -1,95 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sudhiksha Mhatre | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="topbar">
+    <div class="brand">Sudhiksha Mhatre</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Sudhiksha Mhatre</h1>
-  <p>Master’s Student | Cloud & Systems Engineer</p>
-</header>
+  <main>
+    <section class="hero">
+      <div class="hero-text fade-up">
+        <p class="eyebrow">Master’s Student in Computer Science</p>
+        <h1>Cloud and Systems Engineer building reliable, scalable infrastructure.</h1>
+        <p class="subtitle">
+          Hands-on experience in hybrid cloud operations, virtualization, automation, networking,
+          and distributed systems. Focused on cloud engineering, SRE, and DevOps roles.
+        </p>
 
-<section>
-  <h2>About</h2>
-  <p>
-    Master's student in Computer Science with experience in cloud infrastructure,
-    virtualization, and distributed systems. Skilled in AWS, Azure, and system automation.
-  </p>
-</section>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="mailto:mhatresudhiksha30@gmail.com">Contact Me</a>
+        </div>
 
-<section>
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>AWS</span><span>Azure</span><span>VMware</span><span>Hyper-V</span>
-    <span>Spark</span><span>HDFS</span><span>Redis</span>
-    <span>Python</span><span>SQL</span><span>Java</span>
-    <span>MongoDB</span><span>Neo4j</span>
-  </div>
-</section>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>1,000+</strong>
+            <span>Customers supported</span>
+          </div>
+          <div class="stat">
+            <strong>3–4x</strong>
+            <span>CloudCrop speedup target</span>
+          </div>
+          <div class="stat">
+            <strong>Azure</strong>
+            <span>Associate certified</span>
+          </div>
+        </div>
+      </div>
 
-<section>
-  <h2>Experience</h2>
+      <div class="hero-card fade-up delay-1">
+        <img src="profile.jpg" alt="Sudhiksha Mhatre" class="profile-pic" />
+        <div class="hero-card-info">
+          <h2>Sudhiksha Mhatre</h2>
+          <p>Master’s student in Computer Science</p>
+          <p>Cloud • Systems • Distributed Engineering</p>
+          <div class="mini-links">
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank">LinkedIn</a>
+            <a href="resume.pdf" target="_blank">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="card">
-    <h3>NTT Data</h3>
-    <p>Cloud Managed Services Engineer (2023–2025)</p>
-    <ul>
-      <li>Managed hybrid cloud infrastructure for 1000+ customers</li>
-      <li>Worked on VMware, Hyper-V, AWS</li>
-      <li>Handled upgrades, patching, and system operations</li>
-    </ul>
-  </div>
+    <section id="about" class="content-section fade-up">
+      <h2>About</h2>
+      <div class="section-card">
+        <p>
+          I am a Master’s student in Computer Science with experience in hybrid cloud infrastructure,
+          virtualization, Windows/Linux administration, and automation. I enjoy building systems that
+          are scalable, reliable, and easy to operate.
+        </p>
+      </div>
+    </section>
 
-  <div class="card">
-    <h3>AICTE - EduSkills</h3>
-    <p>AWS Data Analytics Intern (2023)</p>
-    <ul>
-      <li>Worked on AWS analytics services</li>
-      <li>Built ETL and data workflows</li>
-    </ul>
-  </div>
+    <section id="experience" class="content-section fade-up">
+      <h2>Experience</h2>
 
-</section>
+      <article class="section-card">
+        <div class="card-head">
+          <div>
+            <h3>NTT Data</h3>
+            <p>Cloud Managed Services Engineer</p>
+          </div>
+          <span>2023 – 2025</span>
+        </div>
+        <ul>
+          <li>Deployed, managed, and upgraded public, private, and hybrid cloud infrastructure for 1,000+ customers across VMware vSphere, Hyper-V, and AWS.</li>
+          <li>Performed day-to-day infrastructure operations including resource management, ESXi and Hyper-V upgrades, bare-metal firmware and BIOS updates, and customer troubleshooting.</li>
+          <li>Administered Windows and Linux systems with exposure to networking, firewalls, and load balancing for secure and stable environments.</li>
+        </ul>
+      </article>
 
-<section>
-  <h2>Projects</h2>
+      <article class="section-card">
+        <div class="card-head">
+          <div>
+            <h3>AICTE - EduSkills</h3>
+            <p>AWS Data Analytics Intern</p>
+          </div>
+          <span>2023</span>
+        </div>
+        <ul>
+          <li>Worked with AWS analytics services to extract insights from data and support data-driven solutions.</li>
+          <li>Built understanding of data pipelines, ETL workflows, and cloud-based analytics processes.</li>
+        </ul>
+      </article>
 
-  <div class="card">
-    <h3>CloudCrop</h3>
-    <p>Distributed Image Processing System</p>
-    <ul>
-      <li>Built using Spark, HDFS, Redis</li>
-      <li>Improved performance by 3–4x</li>
-    </ul>
-  </div>
+      <article class="section-card">
+        <div class="card-head">
+          <div>
+            <h3>AICTE - EduSkills</h3>
+            <p>Cloud Virtual Intern</p>
+          </div>
+          <span>2021</span>
+        </div>
+        <ul>
+          <li>Learned core cloud computing concepts including IaaS, PaaS, SaaS, and cloud architecture fundamentals.</li>
+          <li>Worked with AWS cloud services to design and build basic cloud-based solutions.</li>
+        </ul>
+      </article>
+    </section>
 
-  <div class="card">
-    <h3>Drowsiness Detection</h3>
-    <ul>
-      <li>Used OpenCV + CNN</li>
-      <li>Real-time eye detection and alerts</li>
-    </ul>
-  </div>
+    <section id="projects" class="content-section fade-up">
+      <h2>Projects</h2>
 
-</section>
+      <div class="grid">
+        <article class="section-card project">
+          <div class="card-head">
+            <div>
+              <h3>CloudCrop</h3>
+              <p>Distributed Image Processing System</p>
+            </div>
+            <span>2026</span>
+          </div>
+          <p>
+            Cloud-based distributed image processing platform built with Spark, HDFS, Redis,
+            Flask, and React for large-scale agricultural imagery.
+          </p>
+          <ul>
+            <li>Deployed a multi-node cluster for parallel processing of large image datasets.</li>
+            <li>Built a Flask API and React UI for job submission and monitoring.</li>
+            <li>Improved throughput by 3–4x through parallel processing and cluster tuning.</li>
+          </ul>
+        </article>
 
-<section>
-  <h2>Certifications</h2>
-  <ul>
-    <li>Azure Administrator Associate</li>
-    <li>AWS Cloud Administrator</li>
-    <li>Cisco Networking</li>
-  </ul>
-</section>
+        <article class="section-card project">
+          <div class="card-head">
+            <div>
+              <h3>Driver Drowsiness Detection System</h3>
+              <p>Computer Vision / CNN</p>
+            </div>
+            <span>2021</span>
+          </div>
+          <p>
+            Real-time driver safety project using Python, OpenCV, and Keras to detect eye states and trigger alerts.
+          </p>
+          <ul>
+            <li>Used CNN-based image classification to detect open and closed eyes from webcam input.</li>
+            <li>Applied Haar cascade classifiers for face and eye detection.</li>
+            <li>Implemented an alert mechanism based on eye-closure duration to improve driver safety.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: mhatresudhiksha30@gmail.com</p>
-  <p>LinkedIn: your-linkedin-url</p>
-</section>
+    <section id="skills" class="content-section fade-up">
+      <h2>Skills</h2>
+      <div class="section-card">
+        <div class="chips">
+          <span>AWS</span>
+          <span>Azure</span>
+          <span>VMware vSphere</span>
+          <span>Hyper-V</span>
+          <span>Apache Spark</span>
+          <span>HDFS</span>
+          <span>Redis</span>
+          <span>Linux</span>
+          <span>Windows Server</span>
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Java</span>
+          <span>MongoDB</span>
+          <span>Neo4j</span>
+          <span>ServiceNow</span>
+          <span>Git</span>
+          <span>Jira</span>
+        </div>
+      </div>
+    </section>
 
+    <section id="certifications" class="content-section fade-up">
+      <h2>Certifications</h2>
+      <div class="section-card">
+        <ul class="cert-list">
+          <li>Microsoft Certified: Azure Administrator Associate</li>
+          <li>AWS Cloud Administrator</li>
+          <li>AWS Data Analytics (AICTE EduSkills)</li>
+          <li>Cisco Networking Foundation</li>
+          <li>Introduction to Cybersecurity (Cisco Networking Academy)</li>
+          <li>Cybersecurity Basics (edX)</li>
+          <li>Fundamentals of Cryptography (Infosys Springboard)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section fade-up">
+      <h2>Contact</h2>
+      <div class="section-card contact-box">
+        <p><strong>Email:</strong> mhatresudhiksha30@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank">your LinkedIn profile</a></p>
+        <p><strong>Location:</strong> Bloomington, IN</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
